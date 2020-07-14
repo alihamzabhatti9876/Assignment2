@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_fragment"
+    android:id="@+id/loginfragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:src="@drawable/login_page"
+        android:background="@color/bgColor"/>
+
+   <EditText
+       android:id="@+id/login_userName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="User Name"
+       android:drawableRight="@drawable/field_name"
+       android:layout_marginTop="230dp"/>
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableRight="@drawable/password_field"
+        android:layout_marginTop="290dp"/>
+    <Button
+        android:id="@+id/SignIn_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/bgColor" />
+
+    <TextView
+        android:id="@+id/texthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If not created account than/signup"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"/>
+
+
+</FrameLayout>
